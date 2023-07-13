@@ -1,4 +1,4 @@
-import { ReactPropTypes } from "react"
+
 import css from "./Profile.module.css"
 
 
