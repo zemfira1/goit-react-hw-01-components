@@ -1,7 +1,8 @@
-.title{
-    height: 100vh;
+.container{
+    width: 520px;
+    margin-inline: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 40px;
     color: #010101;
 }
