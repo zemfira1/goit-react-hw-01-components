@@ -1,4 +1,6 @@
-.profile{
+import styled from '@emotion/styled';
+
+export const ProfileSecton = styled.div`
     width: 100%;
     height: auto;
     padding-top:50px;
@@ -7,45 +9,45 @@
     flex-direction: column;
     gap: 60px;
     align-items: center;
-}
+`;
 
-.description{
+export const Description = styled.div`
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: center;
-}
+`;
 
-.avatar{
+export const Avatar = styled.img`
     width: 300px;
     height: 300px;
     border: 1px solid;
     border-color:#e1e4e8;
     border-radius: 150px;
-}
+`;
 
-.name{
+export const Name = styled.p`
     font-size: 40px;
     font-weight: 700;
-}
+`;
 
-.tag{
+export const Tag = styled.p`
     color: #808080;
     font-size: 24px;
-}
+`;
 
-.location{
+export const Location = styled.p`
     color: #808080;
     font-size: 24px;
-}
+`;
 
-.stats{
+export const Stats = styled.ul`
     width: 100%;
     display: flex;
     justify-content: space-around;
-}
+`;
 
-.item{
+export const Item = styled.li`
     width: 100%;
     height: 100%;
     display: flex;
@@ -58,14 +60,14 @@
     padding-top: 28px;
     padding-bottom: 28px;
     background-color: #f5f7fa;
-}
+`;
 
-.label{
+export const Label = styled.span`
     color: #808080;
     font-size: 20px;
-}
+`;
 
-.quantity{
+export const Quantity = styled.span`
     font-size: 26px;
     font-weight: 700;
-}
+`;

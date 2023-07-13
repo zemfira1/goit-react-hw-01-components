@@ -1,4 +1,6 @@
-.statistics{
+import styled from '@emotion/styled';
+
+export const Statistic = styled.section`
     width: 100%;
     height: auto;
     padding-top: 60px;
@@ -7,21 +9,21 @@
     flex-direction: column;
     gap: 60px;
     align-items: center;
-}
+`;
 
-.title{
+export const Title = styled.h2`
     font-size: 34px;
     font-weight: 700;
     color: #414142;
-}
+`;
 
-.statList{
+export const StatList = styled.ul`
     width: 100%;
     display: flex;
     justify-content: space-around;
-}
+`;
 
-.item{
+export const Item = styled.li`
     width: 100%;
     height: 100%;
     display: flex;
@@ -32,12 +34,15 @@
     padding-bottom: 28px;
     color: white;
     background-color: #969da8;
-}
+`;
 
-.label{
+export const Label = styled.span`
     font-size: 20px;
-}
+`;
 
-.percentage{
+export const Percentage = styled.span`
     font-size: 28px;
-}
+`;
+
+
+

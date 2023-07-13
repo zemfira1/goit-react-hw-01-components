@@ -1,14 +1,16 @@
-import css from "./TransactionHistory.module.css"
+import css from './TransactionHistory.module.css';
 import PropTypes from 'prop-types';
+
+import { Transactions, MainLine, NotMainLine} from './TransactionHistory.styled';
 
 export const TransactionHistory = ({items}) => {
     return (
-        <table className={css.transactionHistory}>
+        <Transactions className={css.transactionHistory}>
             <thead>
                 <tr>
-                    <th>Type</th>
-                    <th>Amount</th>
-                    <th>Currency</th>
+                    <MainLine>Type</MainLine>
+                    <MainLine>Amount</MainLine>
+                    <MainLine>Currency</MainLine>
                 </tr>
             </thead>
 
@@ -16,15 +18,15 @@ export const TransactionHistory = ({items}) => {
                 {
                     items.map(({id, type, amount, currency}) => (
                         <tr key={id}>
-                            <td>{type}</td>
-                            <td>{amount}</td>
-                            <td>{currency}</td>
+                            <NotMainLine>{type}</NotMainLine>
+                            <NotMainLine>{amount}</NotMainLine>
+                            <NotMainLine>{currency}</NotMainLine>
                         </tr>
                     ))
                 }
                 
             </tbody>
-        </table>
+        </Transactions>
     )
 }
 
