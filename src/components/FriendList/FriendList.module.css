@@ -1,5 +1,6 @@
 .friendList{
-    width: 100%;
+    width: 70%;
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -12,15 +13,23 @@
     align-items: center;
     padding: 4px 18px;
     background-color: white;
-    box-shadow: -1px 1px 2px 1px rgb(106, 104, 104);
-    border-radius: 1px;
+    box-shadow: -1px 1px 2px 2px #d9ddde;
+    border-radius: 3px;
 }
 
 .status{
     width: 20px;
     height: 20px;
     border-radius: 10px;
-    background-color: rgb(231, 239, 114);
+    background-color: rgb(233, 236, 188);
+}
+
+.true{
+    background-color: #2de327;
+}
+
+.false{
+    background-color: #e33327;
 }
 
 .avatar{
