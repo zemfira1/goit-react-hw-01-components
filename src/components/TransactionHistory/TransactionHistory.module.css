@@ -1,8 +1,0 @@
-
-.transactionHistory tbody tr:nth-child(odd) {
-    background: #fff;
-}
-
-.transactionHistory tbody tr:nth-child(even) {
-    background: #F7F7F7;
-}

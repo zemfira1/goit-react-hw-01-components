@@ -26,3 +26,12 @@ export const NotMainLine = styled.td`
     height: 40px;
     text-align: center;
 `;
+
+export const OneLine = styled.tr`
+    :nth-of-type(odd) {
+        background: #fff;
+    }
+    :nth-of-type(even) {
+        background: #F7F7F7;
+    }
+`;

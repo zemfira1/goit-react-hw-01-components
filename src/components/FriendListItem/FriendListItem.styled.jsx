@@ -11,6 +11,25 @@ export const Item  = styled.li`
     border-radius: 3px;
 `;
 
+//  export const Status = styled.span`
+//     width: 20px;
+//     height: 20px;
+//     border-radius: 10px;
+//     background-color:rgb(233, 236, 188);
+
+//     background-color: ${props=> {
+//         switch (props.isOnline) {
+//         case 'true':
+//             return '#2de327';
+//         case 'false':
+//            return '#e33327';
+//         default:
+//             return 'rgb(233, 236, 188)';
+//         }
+//     }}
+    
+// `;
+
 export const Avatar = styled.img`
     border: 1px solid;
     border-color: #e1e4e8;
