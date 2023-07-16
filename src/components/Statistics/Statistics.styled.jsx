@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-//import { getRandomHexColor } from '../../assistants';
+import { getRandomHexColor } from '../../assistants';
 
 export const Statistic = styled.section`
     width: 100%;
@@ -34,7 +34,7 @@ export const Item = styled.li`
     padding-top: 28px;
     padding-bottom: 28px;
     color: white;
-    background-color: #969da8;
+    background-color: ${getRandomHexColor};
 `;
 
 export const Label = styled.span`
